@@ -1,0 +1,107 @@
+
+github 
+
+## 🔹 **Method 1: Upload files via GitHub Website (No coding required)**
+
+### ✅ Step-by-step:
+
+1. **Log in to GitHub:**
+   Go to [https://github.com](https://github.com) and log in to your account.
+
+2. **Create a new repository:**
+
+   * Click the `+` sign on the top-right → **New repository**.
+   * Enter the repo name (e.g., `my-first-project`)
+   * Set visibility: `Public` or `Private`
+   * Click **Create repository**
+
+3. **Upload your files:**
+
+   * In your new repository, click the **"Add file"** dropdown → select **"Upload files"**
+   * Drag and drop your files or click **"choose your files"**
+   * Scroll down → Add a **commit message** like `"Initial commit"`
+   * Click **Commit changes**
+
+
+---
+
+## 🔹 **Method 2: Upload files using Git & Terminal (Recommended for developers)**
+
+
+
+* Git must be installed → [Download Git](https://git-scm.com/)
+* GitHub account
+
+
+
+1. **Create a repository on GitHub** (as in Method 1)
+
+2. **Open your terminal or command prompt**
+
+3. **Navigate to your project folder:**
+
+   ```bash
+   cd path/to/your/folder
+   ```
+
+4. **Initialize git:**
+
+   ```bash
+   git init
+   ```
+
+5. **Add your GitHub repo as remote:**
+
+   ```bash
+   git remote add origin https://github.com/your-username/your-repo-name.git
+   ```
+
+6. **Add all files to staging:**
+
+   ```bash
+   git add .
+   ```
+
+7. **Commit the files:**
+
+   ```bash
+   git commit -m "Initial commit"
+   ```
+
+8. **Push files to GitHub:**
+
+   ```bash
+   git branch -M main
+   git push -u origin main
+   ```
+---
+
+Github desktop
+
+## ✅ Step 1: Set Your Name and Email in Git
+
+In your terminal (or Git Bash), run these two commands.
+Replace the name and email with **your actual GitHub account details**.
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+```
+
+📌 Example:
+
+```bash
+git config --global user.name "Ankit Sharma"
+git config --global user.email "ankit.sharma123@gmail.com"
+```
+
+---
+
+## ✅ Step 2: Try Committing Again
+
+Now re-run your commit command:
+
+```bash
+git commit -m "my first commit"
+```
+
